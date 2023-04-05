@@ -18,3 +18,13 @@ web-driver가 제어할 수 있도록 추가된 코드
     driver = webdriver.Chrome(ChromeDriverManager().install()) 
     driver.get(URL)
 ``` 
+
+
+
+### PDF 파일을 텍스트 파일로 변환하는 코드 
+* 논문은 주로 pdf 파일로 제공하기 때문에 분석을 위해서는 변환이 필요함 
+
+
+```
+pip install pdfminer 
+```
